@@ -249,14 +249,14 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .osnastka-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 10px 0;
     color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(/img/downloads-bg.jpg) no-repeat center top scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -266,7 +266,7 @@ a:focus {
 
 .razrabotka-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 10px 0;
     color: #fff;
     background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
@@ -278,7 +278,7 @@ a:focus {
 
 .proizvodstvo-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 10px 0;
     color: #fff;
     background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
@@ -296,12 +296,21 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 100px;
     }
 
-    .download-section {
-        padding: 100px 0;
+    .osnastka-section {
+        padding: 300px 0;
     }
+
+    .razrabotka-section {
+        padding: 300px 0;
+    }
+
+    .proizvodstvo-section {
+        padding: 300px 0;
+    }
+
 
     #map {
         height: 400px;
