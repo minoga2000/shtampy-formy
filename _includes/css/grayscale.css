@@ -138,7 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url("/img/intro-bg.jpeg") no-repeat center center scroll;
+    background: url('../img/intro-bg.jpeg') no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -296,7 +296,7 @@ a:focus {
     width: 100%;
     padding: 10px 0;
     color: #000000;
-    background: url("/img/mill.jpg") no-repeat center center scroll;
+    background: url('../img/mill.jpg') no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -308,7 +308,7 @@ a:focus {
     width: 100%;
     padding: 10px 0;
     color: #000000;
-    background: url("/img/drafts.jpg") no-repeat center center scroll;
+    background: url('../img/drafts.jpg') no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -320,7 +320,7 @@ a:focus {
     width: 100%;
     padding: 10px 0;
     color: #000000;
-    background: url("/img/prod.png") no-repeat center center scroll;
+    background: url('../img/prod.png') no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
