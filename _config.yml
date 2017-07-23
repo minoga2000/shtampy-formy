@@ -3,7 +3,7 @@ title: Левша плюс
 email: shtampy-formy@yandex.ru
 url: https://example.github.io
 description: "От мечты до реальности. От идеи до воплощения. Производство и обслуживание технологической оснастки"
-
+baseurl: "/shtampy-formy"
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
