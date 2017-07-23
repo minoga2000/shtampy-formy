@@ -1,5 +1,5 @@
 # Site settings
-title: Левша+
+title: Левша плюс
 email: shtampy-formy@yandex.ru
 url: https://minoga2000.github.io
 description: "От мечты до реальности. От идеи до воплощения. Производство и обслуживание технологической оснастки"
@@ -10,7 +10,7 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Левша+
+footer: Левша Плюс
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
