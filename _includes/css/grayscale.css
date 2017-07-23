@@ -137,7 +137,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #808080;
+    color: #fff;
     background: url(/img/intro-bg.jpeg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
@@ -204,6 +204,46 @@ a:focus {
 }
 
 .btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+.btn-circle-black {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #000000;
+    border-radius: 35px;
+    font-size: 40px;
+    color: #000000;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle-black:hover,
+.btn-circle-black:focus {
+    outline: 0;
+    color: #808080;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle-black i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle-black:hover i.animated {
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
     -webkit-animation-duration: 1.5s;
